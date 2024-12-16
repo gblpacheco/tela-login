@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h1>teste</h1>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <input type="email" name="email" id="iemail" required autocomplete="email">
+                    </p>
+                    <p>
+                        <input type="password" name="senha" id="isenha" minlength="6" maxlength="8" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
