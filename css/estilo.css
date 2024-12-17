@@ -141,12 +141,3 @@ form > input:hover {
     cursor: pointer;
     background-color: var(--color02);
 }
-
-
-/* DISPOSITIVO TABLETS */
-
-@media screen and () {
-    
-}
-
-/* DISPOSITIVO DESKTOPS E MONITORES MAIORES */
