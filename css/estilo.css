@@ -44,13 +44,13 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--color04);
     width: 250px;
     height: 515px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #353027;
     overflow: hidden;
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -98,11 +98,11 @@ main {
     font-size: 1em;
     color: var(--color01);
     background-color: var(--color04);
-    transform: translateY(-10px);
     border-radius: 5px;
     border: none;
     padding: 4px;
     width: calc(100% - 45px);
+    transform: translateY(-10px);
 }
 
 form > input {
