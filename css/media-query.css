@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* DISPOSITIVOS TABLETS*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: rgb(75,68,55);
+        background: linear-gradient(180deg, rgba(75,68,55,1) 0%, rgba(223,223,218,1) 100%);
+    }
+
+    #login {
+        width: 80vw;
+        height: 270px;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+
+/* DISPOSITIVOS DESKTOP*/
+
+@media screen and (min-width: 992px) {
+    body {
+        background: rgb(75,68,55);
+        background: linear-gradient(180deg, rgba(75,68,55,1) 0%, rgba(223,223,218,1) 100%);
+    }
+
+    #login {
+        width: 970px;
+        height: 320px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    #formulario > p {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+}
